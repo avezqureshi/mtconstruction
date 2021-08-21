@@ -13,24 +13,37 @@
 <body>
 
 
-    <nav class="navbar background h-nav-resp">
-        <div class="logo"><img src="icon2.png" alt="logo"></div>
-        <ul class="nav-list v-class-resp">
-            <li><a href="#home">Home</a></li>
-            <li><a href="#about">About</a></li>
-            <li> <a href="#choose">Why to Choose Us</a></li>
-            <li> <a href="#work">Work</a></li>
-            <li> <a href="#testimonial">Testimonial</a></li>
-            <li> <a href="#contact">Contact</a></li>
-        </ul>
+    <header>
+       <img src="icon2.png"> 
+        <nav class="active">
+            <ul>
+                <li> <a href="#home" class="active">Home</a> </li>
+                <li> <a href="#about">About</a> </li>
+                <li> <a href="#choose">WHY TO CHOOSE US</a> </li>
+                <li> <a href="#work">WORK</a> </li>
+                <li> <a href="#testimonial">TESTIMONIALS</a> </li>
+                <li> <a href="#contact">CONTACT</a> </li>
+            </ul>
 
+        </nav>
+        <div class="menu-toggle">
+            <div class="bar"></div>
+            <div class="bar"></div>
+            <div class="bar"></div>
+            <div class="bar"></div>
         </div>
-        <div class="burger">
-            <div class="line"></div>
-            <div class="line"></div>
-            <div class="line"></div>
-        </div>
-    </nav>
+       <script
+        src="https://code.jquery.com/jquery-3.6.0.js"></script>
+        
+
+        <script type="text/javascript">
+            $(document).ready(function(){
+                $('.menu-toggle').click(function(){
+                    $('nav').toggleClass('active')
+                })
+            })
+        </script>
+    </header>
 
 
     <section class="banner" id="home">
