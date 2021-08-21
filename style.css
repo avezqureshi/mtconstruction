@@ -1453,7 +1453,7 @@ display: block;}
 }
 
 
-@media only screen and (max-width: 360px){
+@media only screen and (max-width: 440px){
 .box-container .box h3{
     font-size: 2em;
 }
@@ -1477,6 +1477,10 @@ display: block;}
 
 .image img{
 border-bottom-right-radius:0rem;
+display: block;
+margin-right: 18px;
+margin-left: 18px;
+margin-top: 10px;
 }
 
 .taskBx{
@@ -1584,3 +1588,4 @@ a img{
 }
 }
 }
+
