@@ -1197,7 +1197,7 @@ span{
     font-size: 12px;
     transform: translateY(-20px); /* comes up */
 }
-.dev-icon a{
+.dev-icon{
     position: fixed;
     transition: 1s;
     transition-property: transform;
@@ -1205,7 +1205,7 @@ span{
     z-index: 1;
 }
 
-.dev-icon a:hover{
+.dev-icon:hover{
     transform: translate(0px,0);
     z-index: 1;
 
