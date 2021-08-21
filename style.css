@@ -171,7 +171,7 @@ a:hover{
     .menu-toggle
     {
         display: block;
-        margin-top:2rem;
+        margin-top:1rem;
 
     }
     header nav{
@@ -185,7 +185,7 @@ a:hover{
     }
     header nav.active{
         left: 0;
-        margin-top: 1.4rem;
+        margin-top: 1.3rem;
     }
     header nav ul{
         text-align: center;
@@ -443,7 +443,7 @@ a img{
     font-size: 1.5rem;
     font-weight: 700;
     margin-left:2rem ;
-    margin-top: -5rem;
+    margin-top: -6rem;
 }
 
 .a0 img{
@@ -1213,7 +1213,7 @@ span{
 
 .dev-icon img{
     width: 150px;
-    height: 50px;
+    height: 57px;
     z-index: 1;
     opacity: 1;
 }
@@ -1238,7 +1238,7 @@ span{
 .footer .box-container .box h3{
     font-size: 2.5rem;
     columns: #fff;
-    padding-bottom: 2rem;
+    padding-bottom: 0rem;
     font-weight: normal;
     color: #ffbd23;
 }
@@ -1257,9 +1257,9 @@ span{
 
 }
 .footer .box-container .box a{
-  font-size: 1.5rem;
+  font-size: 1rem;
 color: #ccc;
-padding: 1rem 0;
+padding: 0rem 0;
 text-decoration: none;
 display: block;}
 
@@ -1278,11 +1278,17 @@ display: block;}
 
 .footer .credits a{
     color: #ffbd23;
+    font-size: 1rem;
 }
 
 .footer::before{
     background:url(bookmark.png);
 
+}
+
+#copy{
+    color: white;
+    margin-top: 0rem;
 }
 /* Responsiveness */
 
